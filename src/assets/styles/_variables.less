@@ -1,0 +1,21 @@
+//页面宽度
+@base: 1190px;
+@max-base: 1920px;
+// 颜色
+@primary-color: #60243f; // 主色
+@primary-title-color: #ffedd9; // 主标题色
+@title-color: #333333; // 一级色
+@text-color: #535353; // 二级色
+@white-color: #fff; //白色
+@second-color: #666666; //商城首页楼层标题色
+@gray-color: #ccc; //灰色
+@danger-color: #e9010f; //红色警告
+@explain-color: #999999; // 三级颜色
+//多行文本截断
+.lineClamp(@line:1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: @line;
+    -webkit-box-orient: vertical;
+}

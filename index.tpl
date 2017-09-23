@@ -8,5 +8,5 @@
   </head>
   <body>
     <div id="app"></div>
-  <script type="text/javascript" src="./dist/vendor.b76bf16dd41ed7b52601.js"></script><script type="text/javascript" src="./dist/build.306d3593c78a287489a4.js"></script><script type="text/javascript" src="./dist/common.c159182ad8dbc3b57ffb.js"></script></body>
+  </body>
 </html>
